@@ -1,0 +1,10 @@
+
+.crop-text{
+  position: relative;
+  display: inline-block;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 1.5em; /* (Number of lines you want visible) * (line-height) */
+  line-height: 1.5em; 
+}
+

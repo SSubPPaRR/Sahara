@@ -1,0 +1,8 @@
+$sql="INSERT INTO supportbox (User_ID,Subject,Description,Attachments) VALUES ('".$id."','".$subject."','".$description."','".$attachment."')";
+
+
+if(isset($_SESSION[''])){
+  $ = $_SESSION[''];
+}else $ =false;
+
+ALTER TABLE table_name AUTO_INCREMENT = value;
